@@ -1,7 +1,7 @@
 Complete Football Agency Website
 
 # Football Agency SL
-Football Agency SL is a professional football agency website designed to showcase players, manage client information, and provide football-related services. This project demonstrates a modern web design with responsive layouts and interactive features.
+Football Agency SL is a professional football agency website designed to showcase players, manage client information, and provide football-related services. This project showcases a modern web design featuring responsive layouts and interactive elements.
 
 TECHNOLOGY USED
 HTML
@@ -17,9 +17,9 @@ Football-Agency-SL
 ├─ players.html --- Player page
 ├─ matches.html --- Match page
 ├─ contact.html --- Contact page
-├─ css --- CSS file
-├─ js --- JavaScript file
-└─ Assets --- Images
+├─ styles.css --- CSS file
+├─ script.js --- JavaScript file
+└─ Pic --- Images
 
 Getting Started
 
