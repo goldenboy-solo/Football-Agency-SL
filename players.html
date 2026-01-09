@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Agency SL - Players</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Pic/logo2.png" alt="slfa logo"
+                    width="40"
+                    height="40"
+                    />
+                    <span>footballagencysl</span>
+                </a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="players.html">Players</a></li>
+                <li><a href="matches.html">Matches</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="page-title">League Players</h2>
+        <div class="search-bar">
+            <input type="text" id="playerSearch" placeholder="Search players by name or position..." onkeyup="filterPlayers()">
+        </div>
+
+        <div class="players-grid">
+            <div class="player-card">
+                <img src="Pic/player1.jpg" alt="Player 1" />
+                <h3>NAME: Ibrahim Sesay</h3>
+                <p>POSITION: Goalkeeper</p>
+                <p>STATS: 13 Clean Sheet, 2 Assists</p>
+            </div>
+            
+            <div class="player-card">
+                <img src="Pic/player2.jpg" alt="Player 1" />
+                <h3>NAME: Abdul Conteh</h3>
+                <p>POSITION: Midfielder</p>
+                <p>STATS: 8 Goals, 15 Assists</p>
+            </div>
+
+             <div class="player-card">
+                <img src="Pic/player3.jpg" alt="Player 1" />
+                <h3>NAME: John Conteh</h3>
+                <p>POSITION: Striker</p>
+                <p>STATS: 23 Goals, 5 Assists</p>
+            </div>
+
+              <div class="player-card">
+                <img src="Pic/player4.jpg" alt="Player 1" />
+                <h3>NAME: Alhaji Koroma</h3>
+                <p>POSITION: Defender</p>
+                <p>STATS: 8 Goals, 5 Assists</p>
+            </div>
+
+             <div class="player-card">
+                <img src="Pic/player5.jpg" alt="Player 1" />
+                <h3>NAME: Samuel Bangura</h3>
+                <p>POSITION: Midfielder</p>
+                <p>STATS: 8 Goals, 10 Assists</p>
+            </div>
+
+            <div class="player-card">
+                <img src="Pic/player6.jpg" alt="Player 1" />
+                <h3>NAME: Michael Samura</h3>
+                <p>POSITION: Striker</p>
+                <p>STATS: 20 Goals, 7 Assists</p>
+            </div>
+
+             <div class="player-card">
+                <img src="Pic/player7.jpg" alt="Player 1" />
+                <h3>NAME: Manso Kamara</h3>
+                <p>POSITION: Defender</p>
+                <p>STATS: 5 Goals, 4 Assists</p>
+            </div>
+
+             <div class="player-card">
+                <img src="Pic/player8.jpg" alt="Player 1" />
+                <h3>NAME: Alfred Turay</h3>
+                <p>POSITION: Striker</p>
+                <p>STATS: 15 Goals, 8 Assists</p>
+            </div>
+
+             <div class="player-card">
+                <img src="Pic/player9.jpg" alt="Player 1" />
+                <h3>NAME: Christian Dumbuya</h3>
+                <p>POSITION: Midfielder</p>
+                <p>STATS: 6 Goals, 11 Assists</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Football Agency SL. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
